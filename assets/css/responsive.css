@@ -156,8 +156,6 @@
   }
 
   .passion-image img {
-    max-width: 100%;
-    width: 100%;
     margin-top: 5rem;
   }
   .single-passion-item:nth-child(2n + 1) .passion-caption {
