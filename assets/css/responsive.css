@@ -1,0 +1,232 @@
+/* max-width: 991px */
+@media all and (max-width: 991px) {
+  .menu {
+    position: absolute;
+    width: 30rem;
+    height: 42rem;
+    padding: 5rem;
+    top: 20%;
+    right: -30rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 9999;
+    background: #fff;
+  }
+  .menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu ul li {
+    line-height: 4rem;
+    margin-left: 0;
+  }
+  .menu-bars {
+    display: block;
+  }
+  .nav-close {
+    display: block;
+  }
+
+  /* banner-notSlider */
+  .banner-notSlider {
+    text-align: center;
+  }
+  .banner-image {
+    text-align: center;
+  }
+  .banner-image img {
+    width: 70%;
+    float: none;
+    margin-top: 5rem;
+  }
+  .banner-form {
+    margin: auto;
+  }
+  .industries-caption .banner-caption h2 {
+    font-size: 5rem;
+  }
+  /* footer-single-item */
+  .footer-single-item {
+    margin-bottom: 5rem;
+  }
+  /* banner-caption */
+  .banner-caption {
+    max-width: 100%;
+    text-align: center;
+  }
+  .banner-caption p {
+    margin: auto;
+  }
+  /* features-rating */
+  .pricing-option-area {
+    margin-bottom: 0;
+  }
+  .recomen-item {
+    margin-bottom: 10rem;
+  }
+  .frequently-area {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+  }
+  .paid-order {
+    order: 2;
+  }
+  .free-order {
+    order: 3;
+  }
+  /* single-tem-item */
+  .single-tem-item {
+    margin-bottom: 2rem;
+  }
+  .payment-area {
+    padding-top: 2rem;
+  }
+}
+/* max-width: 767px */
+@media all and (max-width: 767px) {
+  .header-btn .header-btnClose {
+    display: none;
+  }
+  .menu .header-btnClose {
+    display: block;
+    margin-top: 3rem;
+  }
+  .menu .header-btnClose ul {
+    width: 100%;
+    height: auto;
+  }
+  .menu .header-btnClose ul li {
+    width: 100%;
+    text-align: center;
+    background: #345dee;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+  }
+  .menu .header-btnClose ul li a {
+    color: #fff;
+  }
+  /* copyright-social */
+  .copyright-social {
+    float: none;
+    max-width: 16rem;
+    margin: 3rem auto;
+  }
+  /* banner-caption  */
+  .banner-caption h2 {
+    font-size: 5rem;
+  }
+
+  /* contact-area  */
+  .contact-area {
+    margin-top: 10rem;
+  }
+  .contact-link {
+    float: none;
+    margin-top: 3rem;
+  }
+  .contact-text p {
+    max-width: 100%;
+  }
+  .pricing-option-area {
+    padding-top: 2rem;
+  }
+  /* portfolio-galler */
+  .portfolio-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-home .section-title {
+    margin-top: 7rem;
+    margin-bottom: 0 !important;
+  }
+
+  .recomen-item {
+    margin-bottom: 5rem;
+  }
+  .desktop-select {
+    display: none !important;
+  }
+  .select-price.mobile-select {
+    display: flex block !important;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .section-title h3 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .passion-image img {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .single-passion-item:nth-child(2n + 1) .passion-caption {
+    float: none;
+  }
+  .single-passion-item:nth-child(2n + 1) {
+    flex-direction: column-reverse;
+  }
+}
+/* max-width: 568px */
+@media all and (max-width: 568px) {
+  .owl-carousel .owl-nav button.owl-next {
+    right: 5%;
+  }
+  .owl-carousel .owl-nav button.owl-prev {
+    left: 5%;
+  }
+}
+/* max-width: 480px */
+@media all and (max-width: 480px) {
+  /* banner-form form */
+  .banner-form form {
+    flex-direction: column;
+  }
+  .banner-form form button {
+    margin-top: 2rem;
+  }
+  .banner-caption h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  /* copyright */
+  .copyright-area .banner-form p {
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+  }
+  /* input-filed */
+  .input-filed {
+    flex-direction: column;
+  }
+  .input-filed input:first-child {
+    margin-right: 0;
+  }
+  .contact-area {
+    margin-bottom: 5rem;
+  }
+
+  .recomen-item {
+    margin-bottom: 5rem;
+  }
+  .pricing-option-area {
+    padding-top: 10rem;
+  }
+  /* portfolio-galler */
+  .portfolio-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .industries-caption .banner-caption h2 {
+    font-size: 4rem;
+  }
+  .pricing-home .section-title {
+    margin-top: 0;
+  }
+  .section-title h3 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .banner-form input {
+    width: 100%;
+  }
+}
