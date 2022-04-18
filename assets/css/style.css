@@ -778,6 +778,7 @@ textarea::placeholder {
   cursor: pointer;
   animation: scrollBtn 3s ease-in-out infinite;
   z-index: 9999;
+  display:none;
 }
 #scrollBtn img {
   width: 100%;
