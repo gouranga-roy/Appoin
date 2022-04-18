@@ -157,6 +157,7 @@
 
   .passion-image img {
     margin-top: 5rem;
+    float:left;
   }
   .single-passion-item:nth-child(2n + 1) .passion-caption {
     float: none;
